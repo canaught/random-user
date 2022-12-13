@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(221, 210, 217);">
+  <div id="main">
+    <div id="image">
+
+      <img id="profile" src="" alt="profile">
+      <h2 id = "fullname"></h2>
+
+    </div>
+    <div class="data">
+      <button class="button" onclick="update_data_box(this)" buttonFor="age" >Age</button>
+      <button class="button" onclick="update_data_box(this)"buttonFor="email">Email</button>
+      <button class="button" onclick="update_data_box(this)"buttonFor="phone">Phone</button>
+
+      <div id="data_box" class="data-box "></div>
+    </div>
+    <button class="newUserButton" onclick="refreshRun()">Get New User</button>
+  </div>
+
+  <script type="text/javascript" src="./script.js">
+  </script>
+</body>
+
+</html>
