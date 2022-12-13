@@ -1,0 +1,42 @@
+#main{
+    font-size: 24px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;  
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(47, 87, 189);
+    box-shadow: 5px 10px 20px rgb(83, 114, 238);
+}
+#image{
+    margin: 20px;
+    min-height: 250px;
+    border: 5px solid rgb(188, 166, 239);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.data{
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    margin: 10px;
+
+}
+.button{
+    margin: 10px;
+}
+.data-box{
+    height: 80px;
+    grid-column: 1 / span 3 ;
+    text-align: center;
+    border: 2px solid  rgb(188, 166, 239);
+    border-radius: 3px;
+}
+
+.newUserButton{
+    margin: 0px 200px;
+}
+
